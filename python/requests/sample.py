@@ -45,7 +45,7 @@ if __name__ == '__main__':
 
     # Parse response and print people count and detected equipment.
     objects = [x['entities'][1]['classes']
-              for x in response.json()['results'][0]['entities'][0]['objects']]
+               for x in response.json()['results'][0]['entities'][0]['objects']]
 
     print(f'💬 Recognized persons: {len(objects)}\n')
     for num, obj in enumerate(objects, start=1):
