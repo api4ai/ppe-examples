@@ -35,7 +35,7 @@ python3 sample.py image.jpg
 This demo by default sends requests to free endpoint at `demo.api4ai.cloud`.
 Demo endpoint is rate limited and should not be used in real projects.
 
-Use [RapidAPI marketplace](https://rapidapi.com/api4ai-api4ai-default/api/brand-recognition/details) to get the API key. The marketplace offers both
+Use [RapidAPI marketplace](https://rapidapi.com/api4ai-api4ai-default/api/personal-protective-equipment/details) to get the API key. The marketplace offers both
 free and paid subscriptions.
 
 [Contact us](https://api4.ai/contacts) in case of any questions or to request a custom pricing plan
