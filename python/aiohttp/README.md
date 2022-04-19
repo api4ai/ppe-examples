@@ -1,6 +1,6 @@
 # API4AI personal protective equipment detection sample
 
-This directory contains a minimalistic sample that sends requests to the API4AI personal protective equipment detection API. The sample is implemented in `python` using [aiohttp](https://pypi.org/project/aiohttp/) module.
+This directory contains a minimalistic sample that sends requests to the API4AI Personal Protective Equipment Detection API. The sample is implemented in `python` using [aiohttp](https://pypi.org/project/aiohttp/) module.
 
 
 ## Overview
