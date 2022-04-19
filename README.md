@@ -26,9 +26,9 @@ The Personal Protective Equipment (PPE) Monitoring for CCTV API provides people 
 Multifunctional high-accuracy solution for recognition of personal protective equipment, clothing and accessories.
 
 <div align="center">
-<img width="400" src="https://storage.googleapis.com/api4ai-static/samples/ppe-3.jpg"/>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-<img width="400" src="https://storage.googleapis.com/api4ai-static/samples/ppe-2.jpg"/>
+<img width="350" src="https://storage.googleapis.com/api4ai-static/visuals/ppe_3.jpg"/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+<img width="350" src="https://storage.googleapis.com/api4ai-static/visuals/ppe_2.jpg"/>
 </div>
 
 
