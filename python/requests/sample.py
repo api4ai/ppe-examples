@@ -49,12 +49,12 @@ if __name__ == '__main__':
     objects = [x['entities'][1]['classes']
                for x in response.json()['results'][0]['entities'][0]['objects']]
 
-    print(f'💬 Recognized persons: {len(objects)}\n')
+    print(f'💬 {len(objects)} person(s) detected:')
     for num, obj in enumerate(objects, start=1):
-        print(f'💬 Equipment of person {num}:\n')
+        print(f'  Person {num}:')
         glasses = '✅' if obj['glass'] > obj['noglass'] else '❌'
-        print(f'Glasses - {glasses}\n')
+        print(f'    {glasses} glasses')
         helmet = '✅' if obj['helmet'] > obj['nohelmet'] else '❌'
-        print(f'Helmet - {helmet}\n')
+        print(f'    {helmet} helmet')
         vest = '✅' if obj['vest'] > obj['novest'] else '❌'
-        print(f'Vest - {vest}\n')
+        print(f'    {vest} vest')
