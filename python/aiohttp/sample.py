@@ -51,7 +51,7 @@ async def main():
 
         print(f'💬 Recognized persons: {len(objects)}\n')
         for num, obj in enumerate(objects, start=1):
-            print(f'💬 Quiepment of person {num}:\n')
+            print(f'💬 Equipment of person {num}:\n')
             glasses = '✅' if obj['glass'] > obj['noglass'] else '❌'
             print(f'Glasses - {glasses}\n')
             helmet = '✅' if obj['helmet'] > obj['nohelmet'] else '❌'
